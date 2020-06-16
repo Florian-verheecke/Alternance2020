@@ -13,15 +13,20 @@ body{
 
 }
 h1{
-    color: #603524;
-    text-align: center;
-    margin-top: 15px;
+  color: #052645;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+  margin-left: 25%;
+  margin-right: 25%;
+
 }
 h2{
-    color: #603524;
+    color: #052645;
 }
 h3{
-    color: #603524;
+    color: #052645;
 }
 
 
@@ -29,7 +34,7 @@ h3{
 
 .intro p{
 border: solid white;
-background-color: white ;
+background-color: whitesmoke;
 margin: 1% 3% 2% 3%;
 padding:1%;
 border-radius: 15px;
@@ -249,9 +254,10 @@ border-radius: 15px;
       position:relative;
       display:block;
       margin-bottom: 15px;
-      margin-left: 150px;
-      width:100%;
-      max-width: 800px;
+      margin-left: 25%;
+      margin-right: 25%;
+      width:50%;
+      
       background:#eee;
       height:35px;
       border-radius:3px;
@@ -267,6 +273,7 @@ border-radius: 15px;
       -ms-transition-property:width, background-color;
       -o-transition-property:width, background-color;
       transition-property:width, background-color;
+      
       
       
   }
@@ -321,33 +328,61 @@ border-radius: 15px;
       color:#ffffff;
       color:rgba(0, 0, 0, 0.4);
   } 
-  
-/*footer*/
-  .footer{
-      background-color:#343a40;
-      height: 150px;
-      color: white;
-    
-  }
-  
-  .sections{
-      display: flex;
-      margin-left: 50px;
-      margin-top: 20px;
-      flex-direction: row;
 
+  .speaskill{
+    text-align: center;
+    margin-top: 30px;
   }
-  .sections img{
-      width: 10%;
-      margin-top: 10px;
-      margin-left: 220px;
+  .speaskill img{
+      width: 300px;
+      border-radius: 400px;
+    height: auto;
+    border:double 5px whitesmoke;
   }
-  .sections h5{
-      display: inline-block;
-      margin-right: 400px;
-      padding-left: 200px;
+  .speaskill h3{
+    border-bottom: 30px;
+    padding-bottom: 15px;
   }
-  footer li{
-      list-style: none;
-      margin-left: 160px;
-  } 
+  
+
+  .skilldoux{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .skilldoux h3{
+    padding-bottom: 30px;
+  }
+  
+  /*project*/
+
+.ouipe{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+  /*Objectif*/
+.col-sm{
+  border: solid 0.33px;
+  padding: 0;
+  background-color:salmon ;
+  text-align: center;
+}
+.tabObj{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  
+}
+/*footer*/
+.page-footer{
+  background-color: #292b2c	 ;
+  color: whitesmoke;
+}
+.linked{
+  width: 10%;
+  height: auto;
+  margin: 15px;
+  
+}
