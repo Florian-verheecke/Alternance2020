@@ -3,12 +3,56 @@
 
 body{
     background-image: url("boo.jpg");
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'ubuntu',sans-serif;
+;
 
+}
+h1{
+    color: #603524;
+    text-align: center;
+    margin-top: 15px;
+}
+h2{
+    color: #603524;
+}
+h3{
+    color: #603524;
+}
+
+
+/*Index*/
+
+.intro p{
+border: solid white;
+background-color: white ;
+margin: 1% 3% 2% 3%;
+padding:1%;
+border-radius: 15px;
+}
+.gauche{
+    text-align: left;
+    margin-left: 2%;
+}
+.droite{
+    text-align: right;
+    margin-right: 2%;
+}
+.websitegoal img{
+    width: 20%;
+    float: left;
+    padding-right: 2%;
+    border-radius: 50px;
+}
+.blabla img{
+    width: 20%;
+    float:right;
+    padding-left: 2%;
+    border-radius: 50px;
 }
 /*about*/
 
@@ -22,19 +66,23 @@ body{
 
 }
 .carousel{
-    width: 100%;
-    text-align: center;
-    height: 500 px;
-    margin-top: 2.5%;
-    
-}
-.carousel-inner{
-    text-align: center;
-    
-}
-#bga2{
-    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
     height: auto;
+    max-height: 370px;   
+    padding: 5px;
+ 
+
+}
+
+.carousel img{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    max-height: 370px;
+   
+  
 }
 
 * {
@@ -177,11 +225,24 @@ body{
       left: 0%;
     }
   } 
+#howto{
+    text-align: center;
+    margin-top: 30px;
+}
+  .learningMethod{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 40px;
+    padding: 15px;
 
+  }
   /*barre de compétence*/
 
   #skillcomp{
       text-align: center;
+      margin-bottom: 30px;
   }
   
   .skillbar {
@@ -260,6 +321,7 @@ body{
       color:#ffffff;
       color:rgba(0, 0, 0, 0.4);
   } 
+  
 /*footer*/
   .footer{
       background-color:#343a40;
