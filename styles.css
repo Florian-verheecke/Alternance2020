@@ -15,11 +15,14 @@ body{
 h1{
   color: #052645;
   text-align: center;
-  margin-top: 15px;
-  border-radius: 100px;
+  margin-top:4%;
+  margin-bottom:3%;
+   border-radius: 100px;
   background-color: whitesmoke;
   margin-left: 25%;
   margin-right: 25%;
+  overflow:hidden ;
+  
 
 }
 h2{
@@ -385,4 +388,10 @@ border-radius: 15px;
   height: auto;
   margin: 15px;
   
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  bottom:92.5%;
+  z-index: 5;
 }
