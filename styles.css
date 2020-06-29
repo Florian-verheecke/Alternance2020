@@ -356,15 +356,27 @@ border-radius: 15px;
     padding-bottom: 30px;
   }
   
+  .certification h3{
+    text-align: center;
+    
+  }
+  .certification img{
+    width: 30%;
+    margin: 2%  ;
+  }
+
+
   /*project*/
 
-.ouipe{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  .card-deck{
+    margin: 5% !important;
+
 }
+.card{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    height: 50%;
+}
+
   /*Objectif*/
 .col-sm{
   border: solid 0.33px;
@@ -388,10 +400,4 @@ border-radius: 15px;
   height: auto;
   margin: 15px;
   
-}
-.navbar{
-  position: fixed;
-  width: 100%;
-  bottom:92.5%;
-  z-index: 5;
 }
