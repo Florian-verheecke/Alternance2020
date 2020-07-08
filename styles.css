@@ -13,9 +13,9 @@ body{
 
 }
 h1{
-  color: #052645;
+  color: #0F4C81;
   text-align: center;
-  margin-top:4%;
+  margin-top:6%;
   margin-bottom:3%;
    border-radius: 100px;
   background-color: whitesmoke;
@@ -23,13 +23,14 @@ h1{
   margin-right: 25%;
   overflow:hidden ;
   
+  
 
 }
 h2{
-    color: #052645;
+    color: #0F4C81;
 }
 h3{
-    color: #052645;
+    color: #0F4C81;
 }
 
 
@@ -78,7 +79,8 @@ border-radius: 15px;
     margin-top: 20px;
     width: 50%;
     height: auto;
-    max-height: 370px;   
+    max-height: 370px;  
+    max-width: 750px; 
     padding: 5px;
  
 
@@ -89,6 +91,7 @@ border-radius: 15px;
     width: 50%;
     height: auto;
     max-height: 370px;
+    max-width: 750px;
    
   
 }
@@ -235,7 +238,7 @@ border-radius: 15px;
   } 
 #howto{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 90px;
 }
   .learningMethod{
     margin-top: 15px;
@@ -395,7 +398,7 @@ border-radius: 15px;
 }
 /*footer*/
 .page-footer{
-  background-color: #292b2c	 ;
+  background-color: #0F4C81	 ;
   color: whitesmoke;
 }
 .linked{
@@ -406,4 +409,14 @@ border-radius: 15px;
 }
 .alert a{
   color: #052645;
+}
+.navbar {
+  background-color: #0F4C81 !important;
+  position: fixed !important;
+  width: 100%;
+  z-index: 6;
+  top:0px;
+}
+.alert{
+  top: 55px;
 }

@@ -4,6 +4,11 @@ jQuery(document).ready(function(){
 			width:jQuery(this).attr('data-percent')
 		},2000);
 	});
+	jQuery("img").addClass("animated bounce")
+  
 });
 
+
+
+  
 
